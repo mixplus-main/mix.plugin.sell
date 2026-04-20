@@ -1,4 +1,6 @@
 run/
 .idea/
 
+build/
+
 config.yml
