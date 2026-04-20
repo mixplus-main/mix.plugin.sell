@@ -4,3 +4,5 @@ run/
 build/
 
 config.yml
+
+*.ignore
