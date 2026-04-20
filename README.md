@@ -11,14 +11,15 @@ PaperMC サーバー向けのシンプルな売却プラグインです。
 - `/sell` コマンドで手持ちアイテムを売却
 - `config.yml` でアイテムごとの売却価格を手動設定
 - 売却時に任意のコマンドを実行（例：経済プラグインの pay コマンド）
+- `/reload` でconfig.ymlを再読み込み
 - PaperMC（Java）向けの軽量プラグイン
 
 ---
 
 ## 📦 対応環境
 
-- **Minecraft**: PaperMC 1.xx  
-- **Java**: 17 以上
+- **Minecraft**: PaperMC 1.21.8  
+- **Java**: 21 以上
 
 ---
 
