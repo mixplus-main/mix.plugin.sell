@@ -1,0 +1,19 @@
+package mix.plugin;
+
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandSender;
+import org.bukkit.plugin.java.JavaPlugin;
+
+import java.awt.*;
+
+public class main extends JavaPlugin {
+
+    @Override
+    public boolean onCommand(CommandSender sender, Command command, String, Label, String[], args) {
+        if (command.getName().equalsIgnoreCase("test")) {
+            sender.sendMessage("ok");
+            return true;
+        }
+        return false;
+    }
+}

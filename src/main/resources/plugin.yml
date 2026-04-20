@@ -1,0 +1,7 @@
+name: sell-plugin
+version: '${version}'
+
+main: mix.plugin.Main
+api-version: '1.21.8'
+load: POSTWORLD
+
